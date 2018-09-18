@@ -1,11 +1,16 @@
 # ScenicKeypad
 
-**TODO: Add description**
+A Keypad component for Scenic.
 
 ## Installation
 
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed
-by adding `scenic_keypad` to your list of dependencies in `mix.exs`:
+[Scenic.Keypad](https://hex.pm/packages/scenic_keypad), is a basic
+keypad component. It is a very simple keypad with umbers 0-9, #, and \*.
+
+
+
+The package can be installed by adding `scenic_keypad` to your list
+of dependencies in `mix.exs`:
 
 ```elixir
 def deps do
@@ -15,7 +20,5 @@ def deps do
 end
 ```
 
-Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
-and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
-be found at [https://hexdocs.pm/scenic_keypad](https://hexdocs.pm/scenic_keypad).
-
+Documentation can be found on
+[HexDocs](https://hexdocs.pm/scenic_keypad/Scenic.Keypad.Components.html)

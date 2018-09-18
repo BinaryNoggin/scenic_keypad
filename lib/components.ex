@@ -23,7 +23,7 @@ defmodule Scenic.Keypad.Components do
   alias Scenic.Graph
   alias Scenic.Keypad
 
-  @type
+  @spec keypad(Graph.t(), [...]) :: Graph.t()
   def keypad(%Graph{} = graph, options) do
     add_to_graph(graph, Keypad, nil, options)
   end
