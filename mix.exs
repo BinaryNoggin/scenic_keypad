@@ -1,7 +1,7 @@
 defmodule ScenicKeypad.MixProject do
   use Mix.Project
 
-  @scenic_version "0.7.0"
+  @scenic_version "0.10"
   @github "https://github.com/BinaryNoggin/scenic_keypad"
 
   def project do

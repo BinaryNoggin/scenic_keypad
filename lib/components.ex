@@ -28,6 +28,8 @@ defmodule Scenic.Keypad.Components do
     add_to_graph(graph, Keypad, nil, options)
   end
 
+  def keypad_spec(options), do: &keypad(&1, options)
+
   defp add_to_graph(%Graph{} = g, mod, data, options) do
     mod.verify!(data)
     mod.add_to_graph(g, data, options)
